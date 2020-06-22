@@ -1,0 +1,43 @@
+.calculator{
+    margin: auto;
+}
+
+.btnRow button {
+    background-color: grey;
+    color: white;
+    border: 1px solid;
+    width: 55px;
+}
+
+.btnRowTop button{
+    background-color: #130707bd;
+    color: white;
+    border: 1px solid;
+    width: 55px;
+}
+
+.btnRowTop button:last-child{
+    background-color:orange;
+}
+.btnRow button:last-child{
+    background-color:orange;
+}
+.btnLarge{
+    width: 110px !important;
+}
+
+button:hover{
+    color: white !important;
+}
+
+.output {
+    background: black;
+    min-height: 60px;
+    width: 220px;
+    color: white;
+}
+.outputText {
+    font-size: 24px;
+    padding-top: 36px;
+    float: right;
+}
